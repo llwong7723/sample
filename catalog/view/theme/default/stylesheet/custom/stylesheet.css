@@ -1,8 +1,8 @@
-.container {
+/* .container {
 	margin-left: 200px;
 	margin-right: 200px;
 	color: #004466;
-}
+} */
 
 .t-container {
 	margin-left: 100px;
@@ -12,6 +12,11 @@
 .m-container {
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+.row-80{
+	width: 80%;
+	margin:0 auto;
 }
 
 h1 {
