@@ -7,6 +7,7 @@
 	align-items:center!important; 
 	display:flex!important;
 	position: relative;
+	z-index: 0;
 }
 
 .overlay-bg {
@@ -17,6 +18,7 @@
 	left:0;
 	width:100%;
 	height:100%;
+	z-index: -1;
 }
 
 .header-content h1 {
@@ -32,7 +34,10 @@
 
 .btn-banner {
 	margin-top:30px;
-	padding:10px 20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	padding-right:20px;
 	font-size:16px;
 	line-height:20px;
 	text-align: center;
@@ -44,8 +49,8 @@
 }
 
 .btn-banner:hover, .btn-banner:focus {
-	border:2px solid rgb(255, 233, 172);
-	color:rgb(255, 233, 172);
+	border:2px solid #FFCFAC;
+	color:#FFCFAC;
 	outline: none;
 }
 
