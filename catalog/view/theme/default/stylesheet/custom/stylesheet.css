@@ -1,0 +1,39 @@
+.container {
+	margin-left: 200px;
+	margin-right: 200px;
+	color: #004466;
+}
+
+.t-container {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.m-container {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+h1 {
+	font-size: 55px;
+}
+h2 {
+	font-size: 33px;
+}
+h3 {
+	font-size: 21px;
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 17px;
+}
+h6 {
+	font-size: 16px;
+}
+
+label {
+	font-size: 16px;
+	font-weight: 500;
+}

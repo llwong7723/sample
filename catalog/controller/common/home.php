@@ -16,6 +16,26 @@ class ControllerCommonHome extends Controller {
 		$data['footer'] = $this->load->controller('common/footer');
 		$data['header'] = $this->load->controller('common/header');
 
-		$this->response->setOutput($this->load->view('common/home', $data));
+		$deviceType = $this->checkDevice();
+
+		if($deviceType == 0) {
+			$this->response->setOutput($this->load->view('common/home', $data));
+		} elseif($deviceType == 1) {
+			$this->response->setOutput($this->load->view('common/m_home', $data));
+		} else {
+			$this->response->setOutput($this->load->view('common/t_home', $data));
+		}
+
+	}
+
+	private function checkDevice() {
+	// checkDevice() : checks if user device is phone, tablet, or desktop
+	// RETURNS 0 for desktop, 1 for mobile, 2 for tablets
+
+		if (is_numeric(strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "mobile"))) {
+			return is_numeric(strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "tablet")) ? 2 : 1 ;
+		} else {
+			return 0;
+		}
 	}
 }
