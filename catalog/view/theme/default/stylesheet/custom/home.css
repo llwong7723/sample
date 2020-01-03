@@ -1,3 +1,4 @@
+/* Main Banner */
 .bg-cover {
 	background-position: center center;
 	background-size: cover;
@@ -46,6 +47,51 @@
 }
 
 .btn-banner:hover, .btn-banner:focus {
+	border:2px solid #FFCFAC;
+	color:#FFCFAC;
+	outline: none;
+}
+
+
+/* Our History */
+.our-history {
+	width:100%; 
+	height:auto; 
+	padding-top:120px; 
+	padding-bottom:120px;
+}
+
+.our-history-content{
+	text-align: center;
+}
+
+.our-history-content h1 {
+	padding-bottom:60px; 
+	letter-spacing:4px; 
+	font-family: 'Raleway', sans-serif; 
+	color:#FDBC30;
+}
+
+.our-history-content p {
+	color:#222222;
+}
+
+.btn-history {
+	margin-top:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	padding-right:20px;
+	text-align: center;
+	border:2px solid #FDBC30;
+	color:#FDBC30;
+	border-radius:5px;
+	outline: none;
+	background: none;
+	font-weight: 700;
+}
+
+.btn-history:hover, .btn-history:focus {
 	border:2px solid #FFCFAC;
 	color:#FFCFAC;
 	outline: none;
