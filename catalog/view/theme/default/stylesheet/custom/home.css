@@ -24,76 +24,51 @@
 
 .header-content {
 	color: #FFFFFF;
+	z-index: 2;
 }
 
 .header-content h1 {
+	margin-bottom:20px;
 	font-weight:800;
 	font-family: "Raleway", sans-serif;
 	text-transform: uppercase;
 }
 
 .btn-banner {
-	margin-top:30px;
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-left:20px;
-	padding-right:20px;
-	text-align: center;
 	border:2px solid #FFFFFF;
-	border-radius:5px;
-	outline: none;
-	background: none;
-	font-weight: 700;
 }
 
 .btn-banner:hover, .btn-banner:focus {
-	border:2px solid #FFCFAC;
-	color:#FFCFAC;
+	border:2px solid #FDBC30;
+	color:#FDBC30;
 	outline: none;
 }
 
 
 /* Our History */
 .our-history {
-	width:100%; 
-	height:auto; 
-	padding-top:120px; 
-	padding-bottom:120px;
+	width:55%; 
 }
 
-.our-history-content{
+.our-history h1 {
 	text-align: center;
-}
-
-.our-history-content h1 {
-	padding-bottom:60px; 
-	letter-spacing:4px; 
+	margin-bottom: 40px;
 	font-family: 'Raleway', sans-serif; 
 	color:#FDBC30;
 }
 
-.our-history-content p {
-	color:#222222;
+.our-history h4 {
+	color: #000000;
 }
 
 .btn-history {
-	margin-top:30px;
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-left:20px;
-	padding-right:20px;
-	text-align: center;
-	border:2px solid #FDBC30;
-	color:#FDBC30;
-	border-radius:5px;
-	outline: none;
-	background: none;
-	font-weight: 700;
+	border:2px solid #000000;
+	color:#000000;
 }
 
 .btn-history:hover, .btn-history:focus {
-	border:2px solid #FFCFAC;
-	color:#FFCFAC;
+	border:2px solid #FDBC30;
+	color:#FDBC30;
 	outline: none;
 }
 
