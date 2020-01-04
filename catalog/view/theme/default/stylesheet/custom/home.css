@@ -1,25 +1,6 @@
 /* Main Banner */
-.bg-cover {
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	width:100%; 
+.bg-mainbanner {
 	height:100vh;
-	align-items:center!important; 
-	display:flex!important;
-	position: relative;
-	z-index: 0;
-}
-
-.overlay-bg {
-	background:#000000;
-	opacity:0.3;
-	position: absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	z-index: -1;
 }
 
 .header-content {
@@ -48,6 +29,8 @@
 /* Our History */
 .our-history {
 	width:55%; 
+	padding-top:120px;
+	padding-bottom:120px;
 }
 
 .our-history h1 {
@@ -57,13 +40,12 @@
 	color:#FDBC30;
 }
 
-.our-history h4 {
+.our-history h4, .btn-history {
 	color: #000000;
 }
 
 .btn-history {
 	border:2px solid #000000;
-	color:#000000;
 }
 
 .btn-history:hover, .btn-history:focus {
@@ -71,6 +53,49 @@
 	color:#FDBC30;
 	outline: none;
 }
+
+
+/* Operating Hours */
+.bg-parallax-operating-hours {
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	height:100%;
+}
+
+.operating-hour-container-width {
+	width:100%;
+}
+
+.operating-hours-overlay-bg-opacity {
+	opacity:0.7;
+}
+
+.operating-hours {
+	width:80%; 
+	padding-top:180px;
+	padding-bottom:140px;
+	margin-left:auto;
+	margin-right:auto;
+	display: table;
+	text-align: center;
+}
+
+.operating-hours h1 {
+	margin-bottom: 40px;
+	font-family: 'Raleway', sans-serif; 
+	text-transform: uppercase;
+	color:#FFFFFF;
+}
+
+.operating-hours h2 {
+	margin-bottom: 40px;
+	font-family: 'Lobster', cursive; 
+	font-style: oblique;
+	color:#FDBC30;
+}
+
 
 .m-label {
 	color: #009933;
