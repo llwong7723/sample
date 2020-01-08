@@ -1,52 +1,129 @@
-<footer>
-  <div class="container">
-    <div class="row">
-      {% if informations %}
-      <div class="col-sm-3">
-        <h5>{{ text_information }}</h5>
-        <ul class="list-unstyled">
-         {% for information in informations %}
-          <li><a href="{{ information.href }}">{{ information.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endif %}
-      <div class="col-sm-3">
-        <h5>{{ text_service }}</h5>
-        <ul class="list-unstyled">
-          <li><a href="{{ contact }}">{{ text_contact }}</a></li>
-          <li><a href="{{ return }}">{{ text_return }}</a></li>
-          <li><a href="{{ sitemap }}">{{ text_sitemap }}</a></li>
-        </ul>
-      </div>
-      <div class="col-sm-3">
-        <h5>{{ text_extra }}</h5>
-        <ul class="list-unstyled">
-          <li><a href="{{ manufacturer }}">{{ text_manufacturer }}</a></li>
-          <li><a href="{{ voucher }}">{{ text_voucher }}</a></li>
-          <li><a href="{{ affiliate }}">{{ text_affiliate }}</a></li>
-          <li><a href="{{ special }}">{{ text_special }}</a></li>
-        </ul>
-      </div>
-      <div class="col-sm-3">
-        <h5>{{ text_account }}</h5>
-        <ul class="list-unstyled">
-          <li><a href="{{ account }}">{{ text_account }}</a></li>
-          <li><a href="{{ order }}">{{ text_order }}</a></li>
-          <li><a href="{{ wishlist }}">{{ text_wishlist }}</a></li>
-          <li><a href="{{ newsletter }}">{{ text_newsletter }}</a></li>
-        </ul>
-      </div>
+<link href="catalog/view/theme/default/stylesheet/custom/footer.css" rel="stylesheet">
+<!-- Desktop -->
+<footer class="hidden-sm hidden-xs">
+    <div class="d-container">
+        <div class="footer-top">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2">
+                    <img class="footer-logo" src="image/catalog/default/sample_logo_large_470x235.png">
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <nav class="footer-nav text-right">
+                        <ul>
+                            <li><a href="#1">Home</a></li>
+                            <li><a href="#2">About Us</a></li>	
+                            <li><a href="#3">Menu</a></li>
+                            <li><a href="#4">Delivery</a></li>
+                            <li><a href="#5">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="footer-social-follower text-center">
+                        <nav><a class="btn btn-footer" href="#4">CALL FOR DELIVERY</a></nav>
+                        <div class="footer-follower">
+                            <h6>follow</h6>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                    <div class="footer-address-contact">
+                        <p>+6 (012) 345-6789</p>
+                        <span>Info.Logo@Sample.com</span>
+
+                        <div class="footer-address">
+                            <ul>
+                                <li>22 JALAN SETIAMURNI</li>
+                                <li>DAMANSARA HEIGHTS</li>
+                                <li>BUKIT DAMANSARA</li>
+                <li>50490 PETALING JAYA</li>
+                <li>SELANGOR</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom clearfix">
+            <ul>
+                <li>COPYRIGHT © 2020 <span>LOGO SAMPLE.COM</span></li>
+            </ul>
+        </div>
     </div>
-    <hr>
-    <p>{{ powered }}</p>
-  </div>
 </footer>
-{% for script in scripts %}
-<script src="{{ script }}" type="text/javascript"></script>
-{% endfor %}
-<!--
-OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
-Please donate via PayPal to donate@opencart.com
-//-->
-</body></html>
+
+
+<!-- Mobile -->
+<footer class="footer-padding visible-sm visible-xs">
+    <div class="m-container">
+        <div class="footer-top">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                    <img class="footer-logo center-block" src="image/catalog/default/sample_logo_large_470x235.png">
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 mgt-60">
+                    <nav class="footer-nav text-center">
+                        <ul>
+                            <li><a href="#1">Home</a></li>
+                            <li><a href="#2">About Us</a></li>	
+                            <li><a href="#3">Menu</a></li>
+                            <li><a href="#4">Delivery</a></li>
+                            <li><a href="#5">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mgt-50">
+                    <div class="footer-social-follower text-center">
+                        <nav><a class="btn btn-footer" href="#4">CALL FOR DELIVERY</a></nav>
+                        <div class="footer-follower">
+                            <h6>follow</h6>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4 mgt-60">
+                    <div class="footer-address-contact text-center">
+                        <p>+6 (012) 345-6789</p>
+                        <span>Info.Logo@Sample.com</span>
+
+                        <div class="footer-address">
+                            <ul>
+                                <li>22 JALAN SETIAMURNI</li>
+                                <li>DAMANSARA HEIGHTS</li>
+                                <li>BUKIT DAMANSARA</li>
+                <li>50490 PETALING JAYA</li>
+                <li>SELANGOR</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom clearfix">
+            <ul>
+                <li>COPYRIGHT © 2020 <span>LOGO SAMPLE.COM</span></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

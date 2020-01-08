@@ -1,0 +1,197 @@
+/* Main Banner */
+.bg-mainbanner {
+	height:100vh;
+}
+
+.header-content {
+	color: #FFFFFF;
+	z-index: 2;
+}
+
+.header-content h1 {
+	margin-bottom:20px;
+	font-weight:800;
+	font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+.btn-banner {
+	border:2px solid #FFFFFF;
+}
+
+.btn-banner:hover, .btn-banner:focus {
+	border:2px solid #FDBC30;
+	color:#FDBC30;
+	outline: none;
+}
+
+
+/* Our History */
+.our-history {
+	width:80%; 
+	padding-top:60px;
+	padding-bottom:80px;
+}
+
+.our-history h1 {
+	text-align: center;
+	margin-bottom: 40px;
+	font-family: 'Raleway', sans-serif; 
+  color:#FDBC30;
+  line-height: 50px;
+}
+
+.our-history h4, .btn-history {
+	color: #000000;
+}
+
+.btn-history {
+	border:2px solid #000000;
+}
+
+.btn-history:hover, .btn-history:focus {
+	border:2px solid #FDBC30;
+	color:#FDBC30;
+	outline: none;
+}
+
+
+/* Our Menu */
+.our-menu {
+	padding-top:60px;
+	padding-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	display: table;
+	text-align: center;
+	color:#000000;
+}
+
+.our-menu img {
+	border:2px solid #000000;
+	border-image-source: linear-gradient(145deg, #FDBC30, #FFFFFF);
+	border-image-slice: 2;
+}
+
+.our-menu h1 {
+	margin-bottom: 40px;
+	font-family: 'Raleway', sans-serif; 
+}
+
+.our-menu h2 {
+	margin-bottom: 10px;
+	font-family: 'Lobster', cursive; 
+	font-style: oblique;
+	color:#FDBC30;
+}
+
+.our-menu h3 {
+	margin-top: 0px;
+	font-family: 'Raleway', sans-serif; 
+}
+
+.our-menu h4 {
+	margin-top: 0px;
+	line-height: 20px;
+	font-weight:100;
+}
+
+
+/* Operating Hours */
+.bg-parallax-operating-hours {
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	height:100%;
+}
+
+.operating-hours-overlay-bg-opacity {
+	opacity:0.7;
+}
+
+.operating-hours {
+	width:80%; 
+	padding-top:60px;
+	padding-bottom:40px;
+	margin-left:auto;
+	margin-right:auto;
+	display: table;
+	text-align: center;
+}
+
+.operating-hours h1 {
+	margin-bottom: 60px;
+	font-family: 'Raleway', sans-serif; 
+	color:#FFFFFF;
+}
+
+.operating-hours h2 {
+	margin-bottom: 40px;
+	font-family: 'Lobster', cursive; 
+	font-style: oblique;
+  color:#FDBC30;
+  font-size:32px;
+}
+
+
+/* Contact */
+.contact-us {
+	padding-top:60px;
+	padding-bottom:80px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	color:#000000;
+}
+
+.contact-us h1 {
+	margin-bottom: 40px;
+  font-family: 'Raleway', sans-serif; 
+  line-height: 50px;
+}
+
+.contact-us h2 {
+	margin-bottom: 10px;
+	font-family: 'Lobster', cursive; 
+	font-style: oblique;
+	color:#FDBC30;
+}
+
+.contact-form-container {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.contact-form-container .form-control {
+	min-height: 50px;
+	margin-bottom: 20px;
+	border: 1px solid #E6E6E6;
+	border-radius: 0;
+	outline-style: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+}
+
+.contact-form-elements .form-control.submit {
+	position: absolute;
+	border: none;
+	right: 40px;
+	bottom: -50px;
+	border-radius: 100%;
+	width: 60px;
+	height: 60px;
+	background-color: #FDBC30;
+	border:1px solid transparent;
+	color: #FFFFFF;
+}
+
+.contact-form-elements .form-control.submit:hover {
+	background-color: #F2F2F2;
+	border:1px solid #BBBBBB;
+	color: #000000;
+}
