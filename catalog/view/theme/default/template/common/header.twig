@@ -42,10 +42,27 @@
 <body>
 
 <!-- Desktop -->
-<header class="large hidden-sm hidden-xs">
+<header class="large hidden-md hidden-sm hidden-xs">
   <div class="d-container">
     <nav>
       <a href="#"><img id="img-logo" class="logo img-responsive" src="image/catalog/default/sample_logo_large_470x235.png"></a>
+      <ul class="menu-right">
+        <li><a class="active" href="#1">Home</a></li>
+        <li><a href="#2">About Us</a></li>
+        <li><a href="#3">Menu</a></li>
+        <li><a href="#4">Delivery</a></li>
+        <li><a href="#5">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<!-- Tablet -->
+<header class="large hidden-lg hidden-sm hidden-xs">
+  <div class="t-container">
+    <nav>
+      <a href="#"><img id="img-logo-t" class="logo img-responsive" src="image/catalog/default/sample_logo_large_470x235.png"></a>
       <ul class="menu-right">
         <li><a class="active" href="#1">Home</a></li>
         <li><a href="#2">About Us</a></li>
@@ -88,6 +105,7 @@ $(document).on("scroll", function() {
 		$("header").removeClass("large").addClass("small");
     $(".menu-icon").css("color","#000000");
     document.getElementById("img-logo").src="image/catalog/default/sample_logo_small_470x235.png";
+    document.getElementById("img-logo-t").src="image/catalog/default/sample_logo_small_470x235.png";
     document.getElementById("img-logo-m").src="image/catalog/default/sample_logo_small_470x235.png";
     $('header').removeClass('push');
     $('.bg-mainbanner').removeClass('push');
@@ -95,6 +113,7 @@ $(document).on("scroll", function() {
 		$("header").removeClass("small").addClass("large");
     $(".menu-icon").css("color","#FFFFFF");
     document.getElementById("img-logo").src="image/catalog/default/sample_logo_large_470x235.png";
+    document.getElementById("img-logo-t").src="image/catalog/default/sample_logo_large_470x235.png";
     document.getElementById("img-logo-m").src="image/catalog/default/sample_logo_large_470x235.png";
     $('header').addClass('push');
     $('.bg-mainbanner').addClass('push');
